@@ -57,17 +57,33 @@ WUMAITO GOLD</span> WEB SOLUTIONS
             <div class="container">
        <h3 style="text-align:center; background:black; font-size:60;color: gold;padding-bottom:10px;padding-top:10px;">Get To Us</h3>
        <p style="text-align:center;">
-           <from action="mailto:your.email@gmail.com" method="POST"enctype="text/plain">Full Name :<br><input type="text"placeholder="Full Name"size ="50"
-                    <p><br>Email Address :<br><input type="email"name ="email address"id="email"placeholder="Email Address"size="50"<br><br>
-      <label>Message:</label><br>
-  							<textarea placeholder="Message"size="100"></textarea><br><br>
-         <button type="submit"><br><a href="submit.html">Send</a></button>
-         </textarea></p>
-</form>
-<p style="text-align: center; font-size:40;"><a href="#top"><b><i>👆🏿Go To The Top👆🏿</i></b></a>
-        <footer>
-      <p>Wumaito Gold Web Solutions, Copyright &copy; 2025</p>
-      <p><i> <marquee  behavior="10"direction="left">! powered by wumaito gold !</marquee></i></p>
-      </footer>
+<!-- Updated FormSubmit Form -->
+        <form action="https://formsubmit.co/adewoleadewumi61@gmail.com" method="POST">
+            <!-- FormSubmit Config -->
+            <input type="hidden" name="_subject" value="New Message from Wumaito Gold Website">
+            <input type="hidden" name="_template" value="table"> <!-- Neat email formatting -->
+            <input type="hidden" name="_captcha" value="false"> <!-- Disable CAPTCHA -->
+            <input type="hidden" name="_next" value="https://wumaito-gold-web-solution.onrender.com/submit.html"> <!-- Replace with your URL -->
+            
+            <!-- Anti-Spam Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+            
+            <!-- User Input Fields -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Wumaito Gold Web Solutions. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
