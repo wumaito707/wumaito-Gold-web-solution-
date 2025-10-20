@@ -1,0 +1,148 @@
+body{
+  font:80px;
+  margin:0px;
+  background-color: gold;
+  color: black;
+}
+header{
+   color: gold;
+   font-family:Arial;
+   font-size:80px;
+   padding-left:50px;
+   margin-:0px;
+   background-color: black;
+   border-bottom: black 3px solid;  
+}
+#submit{
+   font-family: times new roman;
+   text-align: center;
+   font-size:60px;
+   padding-up:0px;
+   margin-top:500px;
+   border-bottom: gold 500px solid;  
+    
+}
+#branding{
+  font-size:80px;
+  font-family: times new Roman;
+  text-align:center;
+  padding-left:0px;
+  margin:0px;
+  background-color: black;
+  color: gold;
+}
+#branding 2 nav{
+  font-size:30px;
+}
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+#container img{
+    float:right;
+    width:200px;
+    height:100px;
+}
+nav ul {
+    list-style: none; 
+    padding:0px;
+    margin:0px;
+    display: flex;        
+    gap:80px;            
+}
+#showcase h2{
+   font-family:Arial;
+   font-size:40px;
+   padding-top:0px;
+   padding-bottom:0px;
+   text-align:center;
+   margin:0px;
+   min-height:10px;
+}
+#showcase p{
+    font-family: times new Roman;
+    font-size:50;
+    text-align: center;
+    border-bottom: black 3px solid;
+    background:url('showcase.jpg');
+    color: gold;
+}
+showcase 2 p{
+    text-align: center;
+    background: gold;
+    color: black;
+}
+#newsletter{
+  padding:15px;
+  color: gold;
+  text-align: center;
+  background: black ;
+}
+#newsletter button{
+    font-size:50px;
+    
+}
+#newcode{
+    text-align: center;
+    color: gold ;
+    font-family:Arial;
+    font-size:30px;
+}
+
+marquee{
+    font-size:50px;
+    background: black ;
+    color:gold ;
+}
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+#showcase2 h3{
+    text-align: center;
+    font-size:60px;
+    font-family: Times New Roman ;
+}
+#showcase2 p{
+    text-align: center;
+    font-family: Times New Roman ;
+    font-size:60px;
+    color: black ;
+    padding-bottom:20px;
+    padding-bottom:20px;
+}
+#showcase3 p{
+    background: gold ;
+}
+#img{
+    position:80px;
+}
+#service h3{
+    text-align: center;
+    font-size:60px;
+    font-family: Times New Roman ;
+}
+#service p{
+    text-align: center;
+    font-family: Times New Roman ;
+    font-size:60px;
+    color: black;
+    padding-bottom:20px;
+    padding-bottom:20px;
+    backjground: black ;
+}
+#footer p{
+    background-color: black;
+    color: gold ;
+}
+footer{
+  padding:20px;
+  font-size:60px;
+  margin-top:20px;
+  color:gold;
+  font-family: Times New Roman ;
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  

@@ -1,0 +1,56 @@
+body{
+      margin:0px;
+      background-color: gold;
+      color: black;
+}
+#header{
+     font-size:60px;
+     font-family: Times New Roman ;
+     background-color: black;
+     pudding-top:0px;
+     color:gold ;
+     text-align:center;
+      
+}
+#header hr{
+    width:100%;
+    background-color:#3bff00;
+}
+marquee{
+    margin-bottom:10px;
+    font-size:60px;
+    margin-top:0px;
+}
+nav ul{
+    list-style: none; 
+    pudding-letf:50%;
+    display: flex;      
+    gap:70px;  
+}
+#file img{
+  width:30%;
+  margin-top:30px;
+  margin-bottom:10px;
+  padding-left:350px;
+}
+#file h3{
+    text-align: center;
+    font-size:60;
+    font-family: Times New Roman ;
+}
+#file p{
+    text-align: center;
+    background-color: black ;
+    color: gold ;
+    padding:10%;
+}
+footer{
+  padding:20px;
+  font-size:50px;
+  margin-top:20px;
+  color:gold;
+  font-family: Times New Roman ;
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  }
