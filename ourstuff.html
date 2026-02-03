@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-    <head>
-        <link 
-rel="stylesheet" href="index.css">
-        <title>
-wumaito gold web solutions
-       </title>
-       </head>
-       <body>
-          <header>
-        <div class="container">
-        <div id="branding">
-            <nav>
-          <h1span class="highlight">
-WUMAITO GOLD</span> WEB SOLUTIONS
-</div>       
-        </header>    
-        <header>               
-         <div class="container">
-        <div id="branding 2">
-      <nav>
-     <a href="index.html">Home</u></a>
-     <a href="about.html">About</a>
-     <a href="service.html">Service</a>
-    <a href="ourstuff.html">Our Stuf</a>
-         </nav>
-    </header>         
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team | Wumaito Gold</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-       <h2 style="text-align:center; margin-top:50px;font-size:40px;font-family: Times New Roman ;"><u>MEET OUR TEAM</u></h2>
 
-  <div class="staff-container">
-    <div class="staff-card">
-      <img src="images/ceo.jpg" alt="Adewole Adewumi">
-      <h3>ADEWOLE ADEWUMI</h3>
-      <p>Founder & CEO</p>
-      <p>Leads innovation and web design strategy for Wumaito Gold.</p>
-    </div>
-    <div class="staff-card">
-      <img src="images/dev.jpg" alt="OLABODE SAYO">
-      <h3>OLABODE SAYO</h3>
-      <p>Lead Developer</p>
-      <p>Expert in front-end & back-end web development.</p>
-    </div>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">
+        <span class="highlight">WUMAITO GOLD</span> WEB SOLUTIONS
+      </h1>
 
-    <div class="staff-card">
-      <img src="images/designer.jpg" alt="OLUWAPELUMI ISREAL">
-      <h3>OLUWAPELUMI ISREAL</h3>
-      <p>Creative Designer</p>
-      <p>Specializes in branding, logo design, and digital content.</p>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="ourstuff.html" class="active">Our Stuff</a>
+      </nav>
     </div>
-  </div>
-  <section id="footer">
-            <div class="container">
-              <footer>
-      <p>Wumaito Gold Web Solutions, Copyright &copy; 2025</p>
-      </footer>
+  </header>
+
+  <!-- TEAM SECTION -->
+  <section class="content">
+    <div class="content-box">
+      <h2 style="color: var(--gold); text-align: center; margin-bottom: 2rem;">
+        Meet Our Team
+      </h2>
+
+      <div class="team-grid">
+
+        <div class="team-card">
+          <img src="images/ceo.jpg" alt="Adewole Adewumi">
+          <h3>Adewole Adewumi</h3>
+          <p class="role">Founder & CEO</p>
+          <p>
+            Leads innovation, strategy, and overall vision for Wumaito Gold,
+            ensuring quality and excellence in every project.
+          </p>
+        </div>
+
+        <div class="team-card">
+          <img src="images/dev.jpg" alt="Olabode Sayo">
+          <h3>Olabode Sayo</h3>
+          <p class="role">Lead Developer</p>
+          <p>
+            Expert in front-end and back-end development, focused on building
+            scalable, modern, and secure web solutions.
+          </p>
+        </div>
+
+        <div class="team-card">
+          <img src="images/designer.jpg" alt="Oluwapelumi Isreal">
+          <h3>Oluwapelumi Isreal</h3>
+          <p class="role">Creative Designer</p>
+          <p>
+            Specializes in branding, visual identity, and digital content that
+            communicates clarity, trust, and creativity.
+          </p>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="#top" class="cta-btn">⬆ Back to Top</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Wumaito Gold Web Solutions</p>
+  </footer>
+
 </body>
 </html>

@@ -1,87 +1,110 @@
-<html>
-    <head> <link 
-rel="stylesheet" href="application form.css">
-      <title>application form</title>
-    </head>
-    <body>
-        <h1>
-        <section id="header">
-            <div class="container">
-              WUMAITO GOLD WEB SOLUTIONS
-               <nav>
-     <a href="index.html">Home</u></a>
-     <a href="about.html">About</a>
-     <a href="service.html">Service</a>
-    <a href="ourstuff.html">Our Stuf</a>
-         </nav>
-               <marquee behavior="10"direction="left">! APPLIED FOR FROM !</marquee>
-            </div>
-          </section>
-          <section id="file">
-              <div class="container">
-                  <form action="https://formsubmit.co/adewoleadewumi61@gmail.com" method="POST"><enctype="multipart/form-data">
-    <input type="hidden" name="_captcha" value="false">
-    
-    <label>
-        Full Name:</label><br>
-    <input type="text"placeholder="Your Full Name" name="fullname" required><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form | Wumaito Gold</title>
+  <link rel="stylesheet" href="application-form.css">
+</head>
 
-    <label>Email Address:</label><br>
-    <input type="email"placeholder="Your Email Address" name="email" required><br><br>
+<body>
 
-    <label>Phone Number:</label><br>
-    <input type="tel" placeholder="Your Phone Number"name="phone" required><br><br>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">
+        <span class="highlight">WUMAITO GOLD</span> WEB SOLUTIONS
+      </h1>
 
-    <label>Business/Company Name (Optional):</label><br>
-    <input type="text" name="company"><br><br>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+        <a href="ourstuff.html">Our Stuff</a>
+      </nav>
+    </div>
+  </header>
 
-    <label>Type of Service Needed:</label><br>
-    <input type="checkbox" name="service[]" value="Website Design"> Website Design<br>
-    <input type="checkbox" name="service[]" value="Web App Development"> Web App Development<br>
-    <input type="checkbox" name="service[]" value="Domain & Hosting"> Domain & Hosting<br>
-    <input type="checkbox" name="service[]" value="E-commerce Setup"> E-commerce Setup<br>
-    <input type="checkbox" name="service[]" value="Branding"> Branding / Logo Design<br>
-    <input type="checkbox" name="service[]" value="Maintenance"> Maintenance / Update<br>
-    <input type="checkbox" name="service[]" value="Others"> Others<br><br>
+  <!-- FORM SECTION -->
+  <section class="form-section">
+    <h2>Application Form</h2>
+    <p class="subtitle">
+      Tell us about your project. We’ll take it from there.
+    </p>
 
-    <label>Brief Description of Your Project:</label><br>
-    <textarea name="description" rows="4" cols="50"></textarea><br><br>
+    <form action="https://formsubmit.co/adewoleadewumi61@gmail.com"
+          method="POST"
+          enctype="multipart/form-data">
 
-    <label>Do You Have a Budget Range?</label><br>
-    <input type="radio" name="budget_range" value="Yes"> Yes<br>
-    <input type="radio" name="budget_range" value="No"> No<br><br>
+      <input type="hidden" name="_captcha" value="false">
 
-    <label>Your Budget (₦):</label><br>
-    <input type="number" name="budget"><br><br>
+      <label>Full Name</label>
+      <input type="text" name="fullname" placeholder="Your full name" required>
 
-    <label>Preferred Completion Time:</label><br>
-    <select name="timeframe">
-      <option value="1 Week">1 Week</option>
-      <option value="2 Weeks">2 Weeks</option>
-      <option value="1 Month">1 Month</option>
-      <option value="Flexible">Flexible</option>
-    </select><br><br>
+      <label>Email Address</label>
+      <input type="email" name="email" placeholder="Your email address" required>
 
-    <label>How Did You Hear About Us?</label><br>
-    <select name="referral">
-      <option value="Instagram">Instagram</option>
-      <option value="Facebook">Facebook</option>
-      <option value="WhatsApp">WhatsApp</option>
-      <option value="Referral">Referral</option>
-      <option value="Others">Others</option>
-    </select><br><br>
+      <label>Phone Number</label>
+      <input type="tel" name="phone" placeholder="Your phone number" required>
 
-    <label>Additional Information / Notes:</label><br>
-    <textarea name="notes" rows="3" cols="50"></textarea><br><br>
+      <label>Business / Company Name (Optional)</label>
+      <input type="text" name="company">
 
-    <label>Upload File (Optional):</label><br>
-    <input type="file" name="file"><br><br>
+      <label>Type of Service Needed</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="service[]" value="Website Design"> Website Design</label>
+        <label><input type="checkbox" name="service[]" value="Web App Development"> Web App Development</label>
+        <label><input type="checkbox" name="service[]" value="Domain & Hosting"> Domain & Hosting</label>
+        <label><input type="checkbox" name="service[]" value="E-commerce Setup"> E-commerce Setup</label>
+        <label><input type="checkbox" name="service[]" value="Branding"> Branding / Logo Design</label>
+        <label><input type="checkbox" name="service[]" value="Maintenance"> Maintenance / Updates</label>
+        <label><input type="checkbox" name="service[]" value="Others"> Others</label>
+      </div>
 
-    <button type="submit" > <a href="submit.html">Submit</a></button>
-  </form>
-           <footer>
-      <p>Wumaito Gold Web Solutions,Copyright &copy; 2025</p>
-      </footer>                   
- </body>
-      </html>
-                
+      <label>Brief Description of Your Project</label>
+      <textarea name="description" rows="4"
+        placeholder="Describe what you want us to build"></textarea>
+
+      <label>Do You Have a Budget Range?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="budget_range" value="Yes"> Yes</label>
+        <label><input type="radio" name="budget_range" value="No"> No</label>
+      </div>
+
+      <label>Your Budget (₦)</label>
+      <input type="number" name="budget" placeholder="Optional">
+
+      <label>Preferred Completion Time</label>
+      <select name="timeframe">
+        <option>1 Week</option>
+        <option>2 Weeks</option>
+        <option>1 Month</option>
+        <option>Flexible</option>
+      </select>
+
+      <label>How Did You Hear About Us?</label>
+      <select name="referral">
+        <option>Instagram</option>
+        <option>Facebook</option>
+        <option>WhatsApp</option>
+        <option>Referral</option>
+        <option>Others</option>
+      </select>
+
+      <label>Additional Information / Notes</label>
+      <textarea name="notes" rows="3"></textarea>
+
+      <label>Upload File (Optional)</label>
+      <input type="file" name="file">
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2025 Wumaito Gold Web Solutions</p>
+  </footer>
+
+</body>
+</html>
